@@ -2,4 +2,11 @@ tasks:
   - init: |
       curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash
       sudo chown -R gitpod:gitpod LanguageTool-5.6-stable/
-      cd LanguageTool-5.6-stable/
+      sudo mv lt.bash /usr/bin/lt
+      echo "Hallo Weld!" > text.txt
+      #
+      RED='\033[0;31m'
+      NC='\033[0m' # No Color
+      printf "\n\n\nExample invocation: ${RED}lt --language de-DE text.txt${NC}\n"
+      lt --language de-DE text.txt # for demonstration purposes
+      printf "\n\n\n${RED}Setup done – have fun!${NC}\n\n\n"
