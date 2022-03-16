@@ -1,5 +1,8 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
+> ℹ️ Before you use this, try if the online [rule editor](https://community.languagetool.org/ruleEditor2/) works for you.
+> It has some limitations, but it's more user-friendly.
+
 ## What is this?
 This repo serves as the starting point for a Gitpod container in which you can edit rules and test them against a user-provided [`text.txt`](text.txt) file.
 
