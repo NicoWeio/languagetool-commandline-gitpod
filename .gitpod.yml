@@ -1,7 +1,7 @@
 tasks:
   - init: |
       curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash
-      sudo chown -R gitpod:gitpod LanguageTool-5.6-stable/
+      sudo chown -R gitpod:gitpod LanguageTool-5.7-stable/
       sudo mv lt.bash /usr/bin/lt
       echo "Hallo Weld!" > text.txt
       sudo apt install entr
