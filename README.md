@@ -6,7 +6,7 @@
 ## What is this?
 This repo serves as the starting point for a Gitpod container in which you can edit rules and test them against a user-provided [`text.txt`](text.txt) file.
 
-This *will* break for newer LanguageTool releases because of hard-coded version numbers (5.6-stable).
+This *will* break for newer LanguageTool releases because of hard-coded version numbers (6.1-stable).
 I do not intend to maintain this, but PRs are welcome.
 
 ## Getting started
@@ -15,7 +15,7 @@ LanguageTool will be set up automatically.
 You can begin your work and re-execute LanguageTool automatically by saving the [`text.txt`](text.txt) file.
 
 ## Files of interest
-- [German `grammar.xml`](LanguageTool-5.6-stable/org/languagetool/rules/de/grammar.xml)
+- [German `grammar.xml`](LanguageTool-6.1-stable/org/languagetool/rules/de/grammar.xml)
 
 ## See also
 - [LanguageTool on GitHub](https://github.com/languagetool-org/languagetool)

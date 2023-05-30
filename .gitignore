@@ -1,1 +1,2 @@
-LanguageTool-5.6-stable
+LanguageTool-*-stable
+!LanguageTool-*-stable/org/languagetool/rules/de/grammar.xml
